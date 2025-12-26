@@ -15,9 +15,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # Opzione A (consigliata): variabile ambiente TOKEN
 TOKEN ="8434208333:AAGTI7-3MC0LYok4jiIQ1gXylOAJeagL9Uk"
 
-# Opzione B: se preferisci, puoi mettere direttamente il token qui:
-# TOKEN = "8434208333:AAGTI7-3MC0LYok4jiIQ1gXylOAJeagL9Uk"
-
 if not TOKEN:
     raise ValueError("ERRORE: TOKEN non impostato. Imposta la variabile ambiente TOKEN o scrivilo nel file.")
 
@@ -516,3 +513,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
